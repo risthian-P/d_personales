@@ -40,10 +40,18 @@ public class HelloController {
     public void onBottonBorrar(ActionEvent actionEvent) {
         borrardatos();
         textId.setText("");
+        textNombre.setText("");
+        textApellido.setText("");
+        textEdad.setText("");
+        textProfession.setText("");
     }
     public void onBottonActualizar(ActionEvent actionEvent) {
         actualizardatos();
         textId.setText("");
+        textNombre.setText("");
+        textApellido.setText("");
+        textEdad.setText("");
+        textProfession.setText("");
     }
     public void establecerConexion(){
         String DB_url = "jdbc:mysql://localhost/DatosPersonales";
