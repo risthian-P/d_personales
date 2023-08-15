@@ -6,6 +6,7 @@ module com.example.d_personales {
     requires com.dlsc.formsfx;
     requires net.synedra.validatorfx;
     requires org.kordamp.bootstrapfx.core;
+    requires java.sql;
 
     opens com.example.d_personales to javafx.fxml;
     exports com.example.d_personales;
